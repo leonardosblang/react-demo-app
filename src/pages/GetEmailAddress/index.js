@@ -1,13 +1,14 @@
-import { FaUserNinja } from "react-icons/fa";
-import { useEffect, useState } from "react";
-import { toast } from "react-toastify";
-
-import ClientUsers from "../../services/user.js";
 
 import Sidebar from "../../components/Sidebar";
 import Title from "../../components/Title";
-
+import { FaUserNinja } from "react-icons/fa";
+import ClientUsers from "../../services/user.js";
+import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 import "./style.css";
+
+
+
 
 export default function GetEmail() {
   const [user, setUser] = useState();
